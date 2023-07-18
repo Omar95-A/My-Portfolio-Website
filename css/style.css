@@ -49,7 +49,7 @@ body {
 /* Start Header */
 .header {
     background-color:white;
-    padding: 20px;
+    padding: 10px;
     margin-top: 0;
 }
 
@@ -71,10 +71,17 @@ body {
     width: 30px;
 }
 
+.container .links {
+    position: relative;
+}
+
+.container .links:hover {
+    cursor: pointer;
+}
+
 .container .links a {
     text-decoration: none;
     color: rgb(41, 20, 20);
-
 }
 
 
@@ -85,7 +92,7 @@ body {
     padding: 0;
     position: absolute;
     right: 96px;
-    top: 57px;
+    top: 48px;
     min-width: 200px;
     border-radius: 10px;
     display: none;
@@ -225,6 +232,7 @@ body {
     text-align: center;
     margin: 25px;
     width: 300px;
+    margin: 25px auto;
 
 }
 /* End Features */
@@ -346,7 +354,7 @@ body {
 }
 
 .about .about-content .intro-text {
-    flex-basis: calc(100% - 500px);  /* 3 */
+    flex-basis: calc(100% - 500px);
 }
 
 @media (max-width: 991px) {
@@ -428,7 +436,7 @@ body {
     background-color: var(--main-color-3);
     color: wheat;
     margin: 0;
-    height: 150px;
+    height: 180px;
     text-align: center;
     padding-top: 30px;
     font-size: 20px;
@@ -465,7 +473,7 @@ body {
         font-size: 15px;
     }
     .container .links ul {
-        right: 20px;
+        right: -14px;
     }
     .landing .intro-text {
         width: 55%;
@@ -481,7 +489,7 @@ body {
     }
     .container .links ul {
         /* right: 60px; */
-        right: calc(100% - 750px);
+        right: -14px;
     }
 
 }
@@ -494,7 +502,7 @@ body {
         color: var(--main-color-1);
     }
     .container .links ul {
-        right: 31px;
+        right: -14px;
     }
 }
 /* Large */
@@ -506,7 +514,7 @@ body {
         color: var(--main-color-1);
     }
     .container .links ul {
-        right: 96px;
+        right: -14px;
     }
 }
 /* End Media Queries */
