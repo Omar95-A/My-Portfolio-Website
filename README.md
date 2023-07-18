@@ -7,4 +7,4 @@ It's my first template that I worked on. For work on this website i used Leon - 
 https://www.graphberry.com/item/leon-psd-agency-template
 I learned how can i use the html & css professionally in design the websites with Eng. Osama Elzero
 https://elzero.org/
-## Special Thanks To Osama Elzero
+# Special Thanks To Osama Elzero
