@@ -162,7 +162,7 @@ body {
 /* End Header */
 /* Start Landing */
 .landing {
-    background-image: url('../images/landing.jpg');
+    background-image: url('../images/landing-1.jpg');
     background-size: cover;
     height: calc(100vh - 64px);
 }
