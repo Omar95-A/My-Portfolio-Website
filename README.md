@@ -6,5 +6,5 @@ Website Named 'Don't Give Up'. I used HTML, CSS, Icon library from Font Awesome 
 It's my first template that I worked on. For work on this website i used Leon - PSD Agency Template which I took sketch from the Graphberry website.
 https://www.graphberry.com/item/leon-psd-agency-template
 I learned how can i use the html & css professionally in design the websites with Eng. Osama Elzero
-https://elzero.org/
+https://elzero.org/category/courses/html-and-css-practice/
 ### Special Thanks To Osama Elzero
