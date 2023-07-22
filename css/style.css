@@ -429,6 +429,10 @@ body {
 .contact .container .contact-content .intro-text i {
     margin-left: 10px;
     color: var(--main-color-3);
+    transition: 0.3s;
+}
+.contact .container .contact-content .intro-text i:hover {
+    color: var(--main-color-1);
 }
 /* End Contact */
 /* Start Footer */
