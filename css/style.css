@@ -306,6 +306,8 @@ body {
 /* Start Portfolio */
 .portfolio .container .col img {
     max-width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .portfolio .container .cols {
