@@ -318,6 +318,7 @@ body {
 .portfolio .container .card {
     background-color: white;
     height: fit-content;
+    border-radius: 15px;
 }
 
 .portfolio .container .card .intro-text {
