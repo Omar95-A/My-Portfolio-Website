@@ -380,11 +380,11 @@ body {
     line-height: 2;
 }
 .about .about-content .intro-text hr {
-    border-color: var(--main-color-1);
     background-color: var(--main-color-1);
-    height: 1px;
+    height: 2px;
     width: 50%;
     display: inline-block;
+    border: none;
 }
 .about .about-content .intro-text p:last-child {
     font-size: 16px;
