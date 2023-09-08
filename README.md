@@ -6,8 +6,6 @@ I used HTML, CSS, Icon library from Font Awesome and normalize.css v8.0.1 its A 
 
 #### To try the website: [Demo](https://omar95-a.github.io/Website-Project-1/).
 
-It's my first template that I worked on. For work on this website i used [Leon - PSD Agency Template](https://www.graphberry.com/item/leon-psd-agency-template) which I took sketch from the Graphberry website[Graphberry](https://www.graphberry.com).
+It's my first template that I worked on. For work on this website i used [Leon - PSD Agency Template](https://www.graphberry.com/item/leon-psd-agency-template) which I took sketch from the [Graphberry](https://www.graphberry.com) website. I learned how can I use the html & css professionally in design the websites with Eng. [Osama Elzero](https://elzero.org/category/courses/html-and-css-practice/)
 
-I learned how can i use the html & css professionally in design the websites with Eng. Osama Elzero
-https://elzero.org/category/courses/html-and-css-practice/
 #### Special Thanks To Osama Elzero
