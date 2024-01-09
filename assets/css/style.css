@@ -49,6 +49,7 @@
     border-radius: 4px;
     transition: 0.3s;
 }
+
 .ak-dark-btn:hover {
     background-color: var(--white-color);
     border: 1px solid var(--black-color);
@@ -160,6 +161,23 @@ header button img {
     background-color: #cfd6f1;
     border: 1px solid transparent;
     border-radius: 50%;
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 60px;
+}
+.tech-stack-body {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.tech-stack-body img {
+    width: 50px;
 }
 
 .about {
@@ -278,6 +296,12 @@ header button img {
 
 .contact .contact-body a {
     font-family: 'Pacifico', cursive;
+    transition: 0.3s;
+}
+
+.contact .contact-body a:hover {
+    color: gold;
+    text-shadow: 5px 5px 5px red;
 }
 
 footer {
