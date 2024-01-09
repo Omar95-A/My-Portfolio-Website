@@ -29,6 +29,13 @@
     color: var(--black-color);
     font-size: 20px;
     border-radius: 4px;
+    transition: 0.3s;
+}
+
+.ak-light-btn:hover {
+    background-color: var(--black-color);
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
 }
 
 .ak-dark-btn {
@@ -40,6 +47,12 @@
     color: var(--white-color);
     font-size: 20px;
     border-radius: 4px;
+    transition: 0.3s;
+}
+.ak-dark-btn:hover {
+    background-color: var(--white-color);
+    border: 1px solid var(--black-color);
+    color: var(--black-color);
 }
 
 * {
@@ -193,22 +206,31 @@ header button img {
 .about .about-body .about-btn a i.facebook:hover {
     color: #1877f2;
     border-color: #1877f2;
+    box-shadow: 0px 0px 7px #1877f2 inset,
+                0px 0px 7px #1877f2;
 }
 
 .about .about-body .about-btn a i.instagram:hover {
     color: #e1306c;
     border-color: #e1306c;
+    box-shadow: 0px 0px 7px #e1306c inset,
+                0px 0px 7px #e1306c;
 }
 
 .about .about-body .about-btn a i.github:hover {
     color: #000000;
     border-color: #000000;
+    box-shadow: 0px 0px 7px #000000 inset,
+                0px 0px 7px #000000;
 }
 
 .about .about-body .about-btn a i.linkedin:hover {
     color: #0a66c2;
     border-color: #0a66c2;
+    box-shadow: 0px 0px 7px #0a66c2 inset,
+                0px 0px 7px #0a66c2;
 }
+
 
 /* .about .fa-linkedin:before {
     content: "\f08c";
