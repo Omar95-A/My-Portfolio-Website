@@ -171,6 +171,53 @@ header button img {
     font-weight: 100;
 }
 
+.about .about-body .about {
+
+}
+
+.about .about-body .about-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about .about-body .about-btn a i {
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    transition: 0.3s;
+    border: 2px solid var(--white-color);
+    border-radius: 50%;
+}
+
+.about .about-body .about-btn a i.facebook:hover {
+    color: #1877f2;
+    border-color: #1877f2;
+}
+
+.about .about-body .about-btn a i.instagram:hover {
+    color: #e1306c;
+    border-color: #e1306c;
+}
+
+.about .about-body .about-btn a i.github:hover {
+    color: #000000;
+    border-color: #000000;
+}
+
+.about .about-body .about-btn a i.linkedin:hover {
+    color: #0a66c2;
+    border-color: #0a66c2;
+}
+
+/* .about .fa-linkedin:before {
+    content: "\f08c";
+}
+
+.about .fa-linkedin:before {
+    content: "\f09b";
+} */
+
 /* .about-body button {
     width: fit-content;
     height: fit-content;
