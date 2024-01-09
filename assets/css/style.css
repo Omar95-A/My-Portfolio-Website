@@ -1,0 +1,143 @@
+
+:root {
+    --bg-color: rgba(18, 18, 18, 1);
+    --font-color: rgb(255, 255, 255);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--font-color);
+}
+
+body {
+    font-family: "General Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    background-color: var(--bg-color);
+    border-bottom: 1.5px solid rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 22px 24px; */
+    padding: 22px 60px;
+}
+
+header button {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+header button img {
+    width: 33px;
+}
+
+.landing {
+    background-color: var(--bg-color);
+    position: relative;
+    padding: 24px 60px;
+}
+
+.landing .ak-heading {
+    width: 90%;
+    position: absolute;
+}
+
+.landing h1 {
+    font-size: 64px;
+}
+
+.landing .ak-body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.landing .ak-text {
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.landing .ak-text h2 {
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+
+.landing .ak-text .ak-button button {
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 24px;
+    background-color: var(--bg-color);
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--font-color);
+}
+
+.landing .ak-text .ak-button button:first-child {
+    background-color: var(--font-color);
+    color: var(--bg-color);
+}
+
+.landing .ak-photo img {
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    padding: 48px 60px;
+    font-size: 18px;
+    gap: 24px;
+}
+
+.about-body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-body h3 {
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+.about-body button {
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 24px;
+    background-color: var(--bg-color);
+    font-size: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--font-color);
+}
