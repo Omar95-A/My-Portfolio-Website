@@ -315,3 +315,13 @@ footer {
 footer h4 {
     color: var(--white-color);
 }
+
+
+/* Work Page */
+.work-landing .ak-body {
+    padding-top: 10px;
+}
+
+.work-landing .ak-text {
+    width: 100%;
+}
