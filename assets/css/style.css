@@ -325,3 +325,22 @@ footer h4 {
 .work-landing .ak-text {
     width: 100%;
 }
+
+
+
+.SHSM-landing .ak-photo img {
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 0%;
+    width: 566px;
+}
+
+.intro, .my-video {
+    background-color: var(--black-color);
+    position: relative;
+    padding: 24px 60px;
+}
+
+.intro h4:first-of-type {
+    margin-bottom: 2.5rem;
+}
