@@ -173,11 +173,34 @@ header button img {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
 }
 
-.tech-stack-body img {
+/* .tech-stack-body .tech-icon img:hover {
+    transition: 0.3s;
+    width: 60px;
+} */
+
+.tech-stack-body .tech-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tech-stack-body .tech-icon.active-icon img {
+    width: 70px;
+    height: 70px;
+    filter: grayscale(0%);
+}
+
+.tech-stack-body .tech-icon img {
+    transition: 0.3s;
     width: 50px;
+    height: 50px;
+    filter: grayscale(50%);
 }
 
 .about {
@@ -216,12 +239,12 @@ header button img {
     padding: 10px;
     font-size: 25px;
     color: white;
-    transition: 0.3s;
+    transition: 1s;
     border: 2px solid var(--white-color);
     border-radius: 50%;
 }
 
-.about .about-body .about-btn a i.facebook:hover {
+/* .about .about-body .about-btn a i.facebook:hover {
     color: #1877f2;
     border-color: #1877f2;
     box-shadow: 0px 0px 7px #1877f2 inset,
@@ -243,6 +266,37 @@ header button img {
 }
 
 .about .about-body .about-btn a i.linkedin:hover {
+    color: #0a66c2;
+    border-color: #0a66c2;
+    box-shadow: 0px 0px 7px #0a66c2 inset,
+                0px 0px 7px #0a66c2;
+} */
+/**/
+
+
+
+.about .about-body .about-btn a i.facebook.active {
+    color: #1877f2;
+    border-color: #1877f2;
+    box-shadow: 0px 0px 7px #1877f2 inset,
+                0px 0px 7px #1877f2;
+}
+
+.about .about-body .about-btn a i.instagram.active {
+    color: #e1306c;
+    border-color: #e1306c;
+    box-shadow: 0px 0px 7px #e1306c inset,
+                0px 0px 7px #e1306c;
+}
+
+.about .about-body .about-btn a i.github.active {
+    color: #000000;
+    border-color: #000000;
+    box-shadow: 0px 0px 7px #000000 inset,
+                0px 0px 7px #000000;
+}
+
+.about .about-body .about-btn a i.linkedin.active {
     color: #0a66c2;
     border-color: #0a66c2;
     box-shadow: 0px 0px 7px #0a66c2 inset,
@@ -296,12 +350,20 @@ header button img {
 
 .contact .contact-body a {
     font-family: 'Pacifico', cursive;
-    transition: 0.3s;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-.contact .contact-body a:hover {
-    color: gold;
-    text-shadow: 5px 5px 5px red;
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 5px #fff, 0px 0px 5px #614ad3;
+    }
+
+    to {
+        text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+    }
 }
 
 footer {
@@ -341,6 +403,15 @@ footer h4 {
     padding: 24px 60px;
 }
 
+.my-video {
+    height: 100vh;
+}
+
 .intro h4:first-of-type {
     margin-bottom: 2.5rem;
+}
+
+.my-video iframe {
+    width: 100%;
+    height: 93%;
 }
