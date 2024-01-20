@@ -2,6 +2,11 @@
 
 $(document).ready(function (){
 
+    $("header button").on("click",function () {
+        $("header .menu-list").toggle(100);
+        $("header .menu-list").toggleClass("active");
+    });
+
     $(".tech-stack-body .tech-icon").hover(function () {
         $(".tech-stack-body .tech-icon").removeClass("active-icon");
         $(this).addClass("active-icon");
