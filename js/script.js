@@ -3,8 +3,7 @@
 $(document).ready(function (){
 
     $("header button").on("click",function () {
-        $("header .menu-list").toggle(100);
-        $("header .menu-list").toggleClass("active");
+        $("header .menu-list").slideToggle(1500);
     });
 
     $(".tech-stack-body .tech-icon").hover(function () {
