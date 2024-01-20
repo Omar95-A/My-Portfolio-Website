@@ -120,10 +120,33 @@ header a.logo {
 }
 
 header button {
-    width: fit-content;
+    width: 40px;
     height: fit-content;
     background-color: transparent;
     border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+header button span {
+    width: 100%;
+    height: 3px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+header button.active span:nth-child(2) {
+    background-color: transparent;
+}
+
+header button.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(0px, 10px);
+}
+
+header button.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -15px);
 }
 
 header button img {

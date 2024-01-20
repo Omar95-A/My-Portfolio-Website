@@ -6,6 +6,10 @@ $(document).ready(function (){
         $("header .menu-list").slideToggle(1500);
     });
 
+    $("header button").on("click",function () {
+        $("header button").toggleClass("active");
+    });
+
     $(".tech-stack-body .tech-icon").hover(function () {
         $(".tech-stack-body .tech-icon").removeClass("active-icon");
         $(this).addClass("active-icon");
