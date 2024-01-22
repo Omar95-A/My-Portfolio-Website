@@ -13,9 +13,12 @@ $(document).ready(function (){
     $(".tech-stack-body .tech-icon").hover(function () {
         $(".tech-stack-body .tech-icon").removeClass("active-icon");
         $(this).addClass("active-icon");
+        $(".tech-stack-body .tech-icon").css('filter','grayscale(50%)');
+        $(this).css('filter','grayscale(0%)');
     },
     function () {
         $(".tech-stack-body .tech-icon").removeClass("active-icon");
+        $(".tech-stack-body .tech-icon").css('filter','grayscale(0%)');
     });
 
 
