@@ -227,6 +227,8 @@ header .menu-list ul li a {
 }
 
 .landing .ak-photo img {
+    width: 450px;
+    height: 450px;
     background-color: #cfd6f1;
     border: 1px solid transparent;
     border-radius: 50%;
