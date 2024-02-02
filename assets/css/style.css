@@ -254,12 +254,13 @@ header .menu-list ul li a {
 .tech-stack-scroll {
     flex: 0 0 auto;
     min-width: 100%;
+    height: 75px;
     z-index: 1;
-    display: flex;
+    display: inline-flex;
     gap: 25px;
     flex-direction: row;
     align-items: center;
-    animation: scroll 31.2s linear 0s infinite;
+    /* animation: scroll 31.2s linear 0s infinite; */
     animation-play-state: running;
     animation-delay: 0s;
     animation-direction: normal;
