@@ -67,6 +67,7 @@
 
 body {
     font-family: "General Sans", sans-serif;
+    background-color: var(--black-color);
 }
 
 html {
